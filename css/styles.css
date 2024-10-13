@@ -39,6 +39,10 @@ a.background
     color: black;
 }
 
+.page-text
+{
+    background-color: #b6a5b5;
+}
 
 .page-text h1
 {
@@ -55,17 +59,36 @@ a.background
     word-spacing: 0.1rem;
 }
 
-/* .logo 
+.logo 
 {
-    width: ;
-} */
-
-.image
-{
-    width: 400px;
-    height: 250px;
+    width: 89.26px;
+    height: 99.28;
 }
 
+#BenS-logo
+{
+    margin-top: 1rem;
+    width: 285px;
+    height: 117px;
+}
+
+#ellermeyer-logo
+{
+    width: 10rem;
+    height: 10rem;
+}
+
+#bierman-logo
+{
+    width: 341px;
+    height: 79px;
+}
+
+#mobiel-bv-logo
+{
+    width: 10rem;
+    height: 10rem;
+}
 .page-text, h3
 {
     font-family: "Rubik";
@@ -92,9 +115,17 @@ form > .submit
     border-color: #FF8200;
 }
 
-.submit:hover
+.submit:hover, .navigation > ul a:hover
 {
     background-color: #ff6800;
     transition: ease-out;
     transition-duration: 300ms;
+}
+
+.contact
+{
+    text-decoration: none;
+    list-style: none;
+    color: #8FD3F8;
+    font-family: "Assistant";
 }
