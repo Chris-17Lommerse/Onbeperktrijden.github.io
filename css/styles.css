@@ -21,10 +21,10 @@ nav > ul a
 
 .grid-container-nav
 {
+    grid-template-columns: auto, auto, auto, auto, auto;
     border: 10px double black;
+    grid-gap: 0.25rem;
 }
-
-
 
 .navigation
 {
@@ -70,7 +70,7 @@ a.background:link
 .logo 
 {
     width: 89.26px;
-    height: 99.28;
+    height: 99.28px;
 }
 
 #BenS-logo
@@ -140,7 +140,7 @@ form > .submit
 
 #grid-container
 {
-    grid-template-columns: auto, auto, auto;
+    grid-template-columns: 33,33%, 33,33%, 33,33%;
     grid-gap: 0.5rem;
 }
 
@@ -149,15 +149,9 @@ section
     display: grid;
 }
 
-#grid-container
-{
-    grid-template-columns: auto, auto, auto;
-    grid-gap: 0.5rem;
-}
-
 #grid-container-mobiel
 {
-    grid-template-columns: auto, auto, auto;
+    grid-template-columns: 33.33%, 33,33%, 33,33%;
     grid-gap: 0.5rem;
 }
 #article1, #article2, #article3
