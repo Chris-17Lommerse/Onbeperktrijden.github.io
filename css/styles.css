@@ -19,6 +19,13 @@ nav > ul a
     color: white;
 }
 
+.grid-container-nav
+{
+    border: 10px double black;
+}
+
+
+
 .navigation
 {
     background-color: #b6a5b5;
@@ -33,7 +40,7 @@ nav > ul a
     color: black;
 }
 
-a.background
+a.background:link
 {
     background-color: #8FD3F8;
     color: black;
@@ -42,6 +49,7 @@ a.background
 .page-text
 {
     background-color: #b6a5b5;
+    margin-bottom: 1rem;
 }
 
 .page-text h1
@@ -128,4 +136,60 @@ form > .submit
     list-style: none;
     color: #8FD3F8;
     font-family: "Assistant";
+}
+
+#grid-container
+{
+    grid-template-columns: auto, auto, auto;
+    grid-gap: 0.5rem;
+}
+
+section
+{
+    display: grid;
+}
+
+#grid-container
+{
+    grid-template-columns: auto, auto, auto;
+    grid-gap: 0.5rem;
+}
+
+#grid-container-mobiel
+{
+    grid-template-columns: auto, auto, auto;
+    grid-gap: 0.5rem;
+}
+#article1, #article2, #article3
+{
+    grid-row: 1 / 3;
+}
+
+#mobiel-article1, #mobiel-article2, #mobiel-article3
+{
+    grid-row: 1 / 3;
+}
+
+.BenS-content-images
+{
+    width: 10rem;
+    height: 10rem;
+}
+
+.ellermeyer-content-images
+{
+    width: 10rem;
+    height: 10rem;
+}
+
+.bierman-content-images
+{
+    width: 10rem;
+    height: 10rem;
+}
+
+.mobiel-content-images
+{
+    width: 10rem;
+    height: 10rem;
 }
