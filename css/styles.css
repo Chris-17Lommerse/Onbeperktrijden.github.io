@@ -97,6 +97,12 @@ a.background:link
     width: 10rem;
     height: 10rem;
 }
+
+#ellermeyer-section
+{
+    float: right;
+}
+
 .page-text, h3
 {
     font-family: "Rubik";
@@ -186,4 +192,19 @@ section
 {
     width: 10rem;
     height: 10rem;
+}
+
+.first-letter::first-letter
+{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+article:nth-child(even)
+{
+    background-color: #CFF;
+}
+
+article:nth-child(odd)
+{
+    background-color: #FFF
 }
