@@ -1,0 +1,5 @@
+Student name: Chris Lommerse
+Student number: 728158
+Student class: HAIN24VT1a
+GitHub Repository: https://github.com/Chris-17Lommerse/Chris-17Lommerse.github.io
+GitHub Pages URL: https://chris-17lommerse.github.io/
