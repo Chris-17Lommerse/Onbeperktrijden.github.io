@@ -6,6 +6,25 @@ body
     background: var(--Primary, #863277);
 }
 
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+header > nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+.header-navigation
+{
+    margin: 10px;
+}
 /* h1 gets a background Rose Quartz */
 .header-text
 {
