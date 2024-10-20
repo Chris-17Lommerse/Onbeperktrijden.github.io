@@ -1,64 +1,54 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik");
 @import url("https://fonts.googleapis.com/css2?family=Assistant");
 
-body
-{
+body {
     background: var(--Primary, #863277);
 }
 
-header
-{
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 2rem;
 }
 
-header.page-text
-{
+header.page-text {
     margin-left: 500px;
     margin-right: 515px;
-
 }
 
-header > nav ul {
+header>nav ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: stretch;
 }
 
-header img
-{
+header img {
     margin-top: 0;
     margin-left: 2rem;
 }
 
-.header-navigation
-{
+.header-navigation {
     margin: 10px;
 }
 
 /* h1 gets a background Rose Quartz */
-.header-text
-{
+.header-text {
     background-color: #b6a5b5;
 }
 
-nav > ul a
-{
+nav>ul a {
     text-decoration: none;
     font-family: "Assistant";
     color: white;
 }
 
-.grid-container-nav
-{
-     position: static;
+.grid-container-nav {
+    position: static;
 }
 
-.navigation
-{
+.navigation {
     background-color: #b6a5b5;
     list-style: none;
     position: relative;
@@ -66,70 +56,60 @@ nav > ul a
     margin-right: 25rem;
 }
 
-.navigation > ul
-{
+.navigation > ul {
     list-style: none;
 }
 
-#benS-section
-{
+#benS-section {
     grid-column: 1/2;
     grid-row: 1/2;
     float: left;
 }
 
-#ellermeyer-section
-{
-     grid-column: 2/2;
-     grid-row: 1/2;
-     margin-top: -10px;
+#ellermeyer-section {
+    grid-column: 2/2;
+    grid-row: 1/2;
+    margin-top: -10px;
 }
 
-#bierman-section
-{
+#bierman-section {
     grid-column: 1/2;
     grid-row: 2/2;
     float: left;
 }
 
-#mobiel-section
-{
+#mobiel-section {
     float: right;
     display: flex;
     flex-direction: column;
     align-items: start;
 }
 
-.navigation > ul a
-{
+.navigation > ul a {
     background-color: #FF8200;
     text-decoration: none;
     font-family: "Assistant";
     color: black;
 }
 
-a.background:link
-{
+a.background:link {
     background-color: #8FD3F8;
     color: black;
 }
 
-.page-text
-{
+.page-text {
     background-color: #b6a5b5;
     margin-bottom: 1rem;
     margin-left: 3rem;
     margin-right: 3rem;
 }
 
-.page-text h1
-{
+.page-text h1 {
     font-family: "Rubik";
     letter-spacing: normal;
 }
 
-.page-text p
-{
+.page-text p {
     font-family: "Assistant";
     letter-spacing: normal;
     line-height: 20px;
@@ -137,37 +117,31 @@ a.background:link
     word-spacing: 0.1rem;
 }
 
-.article p
-{
+.article p {
     font-family: "Assistant";
 }
 
-.article h1
-{
+.article h1 {
     font-family: "Rubik";
 }
 
-.logo 
-{
+.logo {
     width: 89.26px;
     height: 99.28px;
 }
 
-#BenS-logo
-{
+#BenS-logo {
     margin-top: 1rem;
     width: 285px;
     height: 117px;
 }
 
-#ellermeyer-logo
-{
+#ellermeyer-logo {
     width: 10rem;
     height: 10rem;
 }
 
-#bierman-logo
-{
+#bierman-logo {
     width: 270px;
     height: 79px;
     display: flex;
@@ -175,24 +149,21 @@ a.background:link
     justify-content: end;
 }
 
-#mobiel-bv-logo
-{
+#mobiel-bv-logo {
     width: 10rem;
     height: 10rem;
 }
 
-.page-text, h3
-{
+.page-text,
+h3 {
     font-family: "Rubik";
 }
 
-#uppercase 
-{
+#uppercase {
     text-transform: uppercase;
 }
 
-form
-{
+form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -203,44 +174,38 @@ form
     padding: 1rem;
 }
 
-form label, legend
-{
+form label,
+legend {
     margin-top: 1rem;
     font-family: "Assistant";
 }
 
-#text
-{
+#text {
     text-align: center;
     margin-bottom: 1rem;
 }
 
-#vraag
-{
+#vraag {
     height: 200px;
 }
 
-fieldset
-{
+fieldset {
     border: none;
 }
 
-#input-autoaanpassingsbedrijf
-{
+#input-autoaanpassingsbedrijf {
     display: flex;
     flex-direction: column;
     align-items: start;
 }
 
-#input-autoaanpassingsbedrijf label
-{
+#input-autoaanpassingsbedrijf label {
     border-width: 10px;
     margin-left: 25px;
     margin-top: -18px;
 }
 
-form > .submit
-{
+form>.submit {
     background-color: #FF8200;
     border: none;
     width: 100px;
@@ -249,110 +214,104 @@ form > .submit
     margin-left: 180px;
 }
 
-.submit:hover, .navigation > ul a:hover
-{
+.submit:hover,
+.navigation>ul a:hover {
     background-color: #ff6800;
     transition: ease-out;
     transition-duration: 300ms;
 }
 
-.contact, #copyright
-{
+.contact,
+#copyright {
     text-decoration: none;
     list-style: none;
     color: #8FD3F8;
     font-family: "Assistant";
 }
 
-#grid-container
-{
+#grid-container {
     grid-gap: 0.5rem;
 }
 
-section
-{
+section {
     display: grid;
 }
 
-section.main-content
-{
+section.main-content {
     width: 368px;
     height: 890px;
     margin-left: 10rem;
 }
 
-aside.page-text
-{
+aside.page-text {
     width: 365px;
     height: 2196px;
     margin-left: 800px;
     margin-top: -700px;
 }
 
-#grid-container-mobiel
-{
+#grid-container-mobiel {
     grid-gap: 0.5rem;
 }
-#article1, #article2, #article3
-{
+
+#article1,
+#article2,
+#article3 {
     grid-row: 1 / 3;
 }
 
-#mobiel-article1, #mobiel-article2, #mobiel-article3
-{
+#mobiel-article1,
+#mobiel-article2,
+#mobiel-article3 {
     grid-row: 1 / 3;
 }
 
-#mobiel-article1 h1, #mobiel-article2 h1, #mobiel-article3 h1
-{
+#mobiel-article1 h1,
+#mobiel-article2 h1,
+#mobiel-article3 h1 {
     font-family: "Rubik";
 }
 
-#mobiel-article1 p, #mobiel-article2 p, #mobiel-article3 p
-{
+#mobiel-article1 p,
+#mobiel-article2 p,
+#mobiel-article3 p {
     font-family: "Assistant";
 }
-.BenS-content-images
-{
+
+.BenS-content-images {
     width: 10rem;
     height: 10rem;
 }
 
-.ellermeyer-content-images
-{
+.ellermeyer-content-images {
     width: 10rem;
     height: 10rem;
 }
 
-.bierman-content-images
-{
+.bierman-content-images {
     width: 10rem;
     height: 10rem;
 }
 
-.mobiel-content-images
-{
+.mobiel-content-images {
     width: 10rem;
     height: 10rem;
 }
 
-.first-letter::first-letter
-{
+.first-letter::first-letter {
     font-size: 2rem;
     font-weight: bolder;
 }
-article:nth-child(even)
-{
+
+article:nth-child(even) {
     background-color: #CFF;
 }
 
-article:nth-child(odd)
-{
+article:nth-child(odd) {
     background-color: #FFF
 }
 
-footer > ul
-{
+footer>ul {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -360,8 +319,8 @@ footer > ul
     margin-top: 10rem;
 }
 
-footer > ul li, footer ul li a
-{
+footer>ul li,
+footer ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -370,3 +329,22 @@ footer > ul li, footer ul li a
     font-family: "Assistant";
 }
 
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+    
+    .navigation
+    {
+        width: fit-content;
+        margin-left: 150px;
+    }
+
+    form
+    {
+        width: fit-content;
+        margin-left: 190px;
+    }
+
+    
+}
