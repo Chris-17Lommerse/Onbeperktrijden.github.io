@@ -238,6 +238,17 @@ form>.submit {
     cursor: pointer;
 }
 
+form > a
+{
+    border-width: 1px;
+    text-decoration: none;
+    color: black;
+    font-family: "Assistant";
+    margin-left: 195px;
+    margin-bottom: 40px;
+    z-index: 1;
+}
+
 #back:hover,
 .submit:hover,
 .navigation>ul a:hover {
@@ -356,6 +367,15 @@ footer ul li a {
     margin-left: 0.5rem;
     cursor: pointer;
 }
+
+.cookies
+{
+   position: static;
+   text-align: center;
+   font-family: "Assistant";
+   z-index: 9999;
+}
+
 @media screen and (max-width: 768px) {
 
     main
@@ -382,18 +402,18 @@ footer ul li a {
         background-color: #CFF;
     }
 
-    .hamburger span:nth-child(1) {
+    .hamburger span:nth-child(odd) {
         top: 0;
         background-color: #FFF;
     }
 
-    .hamburger span:nth-child(2) {
+    .hamburger span:nth-child(even) {
         top: 9px;
         background-color: #CFF;
     }
 
-    .hamburger span:nth-child(3) {
-        bottom: 8px;
+    .hamburger span:nth-child(odd) {
+        bottom: 0;
         background-color: #FFF;
     }
 

@@ -54,7 +54,7 @@
                 aanpassingsbedrijven.
             </p>
         </header>
-        <form action="post">
+        <form>
             <label for="radio">Aanhef bezoeker*</label>
             <fieldset>
                 <input type="radio" name="aanhef" value="Dhr.">
@@ -65,13 +65,13 @@
                 <label for="Neutraal">Neutraal</label>
             </fieldset>
             <label for="text">Naam bezoeker*</label>
-            <input type="text" class="form" name="Naam bezoeker" placeholder="Chris Lommerse" required>
+            <input type="text" class="form" name="Naam bezoeker" placeholder="Chris Lommerse">
             <label for="email">E-mailadres bezoeker*</label>
-            <input type="email" class="form" name="email" placeholder="clom****@gmx.com" required>
+            <input type="email" class="form" name="email" placeholder="clom****@gmx.com">
             <label for="tel">Telefoonnummer bezoeker</label>
             <input type="tel" class="form" name="tel" placeholder="06 8675443536">
             <label for="textarea">Vraag/Opmerking bezoeker*</label>
-            <input type="text" id="vraag" class="form" name="text" placeholder="Dit is een vraag" required>
+            <input type="text" id="vraag" class="form" name="text" placeholder="Dit is een vraag">
             <label for="radio">Selecteer een autoaanpassingsbedrijf*</label>
             <fieldset id="input-autoaanpassingsbedrijf">
                 <input type="radio" name="autoaanpassingsbedrijf">
@@ -85,6 +85,7 @@
             </fieldset>
             <legend id="text">*= Verpicht invoerveld</legend>
             <input type="submit" class="submit" value="Verzenden" name="submit">
+            <a href="formulier-verstuurd.html">Verzenden</a>
         </form>
     </main>
     <footer>
@@ -98,6 +99,11 @@
                 &copy; 2024 Onbeperktrijden.nl.
             </li>
         </ul>
+        <article class="cookies">
+            <p>
+                Wilt u cookies accepteren?
+            </p>
+        </article>
     </footer>
 </body>
 
