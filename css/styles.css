@@ -33,6 +33,15 @@ header img {
     margin: 10px;
 }
 
+#menu-toggle {
+    display: none;
+}
+
+.hamburger
+{
+    display: none;
+}
+
 /* h1 gets a background Rose Quartz */
 .header-text {
     background-color: #b6a5b5;
@@ -44,6 +53,10 @@ nav>ul a {
     color: white;
 }
 
+nav > ul a.background
+{
+    color: black;
+}
 .grid-container-nav {
     position: static;
 }
@@ -54,6 +67,7 @@ nav>ul a {
     position: relative;
     margin-left: 25rem;
     margin-right: 25rem;
+    cursor: pointer;
 }
 
 .navigation > ul {
@@ -93,6 +107,8 @@ nav>ul a {
 }
 
 a.background:link {
+    padding-left: 5px;
+    padding-right: 5px;
     background-color: #8FD3F8;
     color: black;
 }
@@ -163,6 +179,11 @@ h3 {
     text-transform: uppercase;
 }
 
+article, aside
+{
+    background-color: #b6a5b5;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -214,8 +235,10 @@ form>.submit {
     height: 50px;
     margin-left: 180px;
     margin-left: 180px;
+    cursor: pointer;
 }
 
+#back:hover,
 .submit:hover,
 .navigation>ul a:hover {
     background-color: #ff6800;
@@ -305,14 +328,6 @@ aside.page-text {
     font-weight: bolder;
 }
 
-article:nth-child(even) {
-    background-color: #CFF;
-}
-
-article:nth-child(odd) {
-    background-color: #FFF
-}
-
 footer>ul {
     list-style: none;
     display: flex;
@@ -331,65 +346,134 @@ footer ul li a {
     font-family: "Assistant";
 }
 
+#back
+{
+    border: none;
+    background-color: #FF8200;
+    width: 5rem;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
 @media screen and (max-width: 768px) {
-    nav {
+
+    main
+    {
+        margin-top: 400px;
+    }
+    #menu-toggle {
         display: none;
     }
-    
-    .navigation
+
+    .hamburger {
+        position: relative;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .hamburger span {
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background-color: #CFF;
+    }
+
+    .hamburger span:nth-child(1) {
+        top: 0;
+        background-color: #FFF;
+    }
+
+    .hamburger span:nth-child(2) {
+        top: 9px;
+        background-color: #CFF;
+    }
+
+    .hamburger span:nth-child(3) {
+        bottom: 8px;
+        background-color: #FFF;
+    }
+
+    .menu
     {
+        position: absolute;
+        top: 0;
+        right: -300px;
+        width: 300px;
+        height: 100%;
+        background-color: #863277;
+        color: black;
+    }
+
+    .menu ul {
+        display: block;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu ul li {
+        padding: 10px;
+    }
+
+    .menu ul li a {
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    #menu-toggle:checked~.menu {
+        left: 0;
+    }
+
+    .navigation {
         width: fit-content;
         margin-left: 150px;
     }
 
-    form
-    {
+    form {
         width: 350px;
         margin-left: 10rem;
     }
 
-    footer > ul
-    {
+    footer>ul {
         margin-top: 3rem;
         display: block;
         margin-left: 250px;
         margin-right: 250px;
     }
 
-    footer > ul li, footer ul li a 
-    {
+    footer>ul li,
+    footer ul li a {
         margin-top: 2rem;
     }
 
-    section.mobile-format 
-    {
+    section.mobile-format {
         display: block;
     }
 
-    section.main-content
-    {
-         margin-top: 2rem;
-         margin-left: 1rem;
-         width: 100%;
-         height: fit-content;
+    section.main-content {
+        margin-top: 2rem;
+        margin-left: 1rem;
+        width: 100%;
+        height: fit-content;
     }
-    
-    aside.page-text
-    {
+
+    aside.page-text {
         margin-top: 2rem;
         margin-left: 2.5rem;
         width: 90%;
         height: fit-content;
     }
-    
-    header.page-text
-    {
+
+    header.page-text {
         width: 400px;
         margin-left: 150px;
     }
 
-    form > .submit
-    {
+    form>.submit {
         margin-left: 8rem;
     }
 }
