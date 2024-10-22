@@ -207,7 +207,9 @@ fieldset {
 
 form>.submit {
     background-color: #FF8200;
-    border: none;
+    border-style: double;
+    border-color: #FF8201;
+    border-width: 1px;
     width: 100px;
     height: 50px;
     margin-left: 180px;
@@ -342,9 +344,52 @@ footer ul li a {
 
     form
     {
-        width: fit-content;
-        margin-left: 190px;
+        width: 350px;
+        margin-left: 10rem;
     }
 
+    footer > ul
+    {
+        margin-top: 3rem;
+        display: block;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    footer > ul li, footer ul li a 
+    {
+        margin-top: 2rem;
+    }
+
+    section.mobile-format 
+    {
+        display: block;
+    }
+
+    section.main-content
+    {
+         margin-top: 2rem;
+         margin-left: 1rem;
+         width: 100%;
+         height: fit-content;
+    }
     
+    aside.page-text
+    {
+        margin-top: 2rem;
+        margin-left: 2.5rem;
+        width: 90%;
+        height: fit-content;
+    }
+    
+    header.page-text
+    {
+        width: 400px;
+        margin-left: 150px;
+    }
+
+    form > .submit
+    {
+        margin-left: 8rem;
+    }
 }
