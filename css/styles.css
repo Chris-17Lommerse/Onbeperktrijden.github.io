@@ -15,6 +15,7 @@ header {
 header.page-text {
     margin-left: 500px;
     margin-right: 515px;
+    width: fit-content;
 }
 
 header>nav ul {
@@ -74,19 +75,19 @@ nav > ul a.background
     list-style: none;
 }
 
-#benS-section {
+#benS-section, #BenS-button {
     grid-column: 1/2;
     grid-row: 1/2;
     float: left;
 }
 
-#ellermeyer-section {
+#ellermeyer-section, #ellermeyer-button {
     grid-column: 2/2;
     grid-row: 1/2;
-    margin-top: -10px;
+    margin-top: 20px;
 }
 
-#bierman-section {
+#bierman-section, #bierman-button {
     grid-column: 1/2;
     grid-row: 2/2;
     float: left;
@@ -97,6 +98,16 @@ nav > ul a.background
     display: flex;
     flex-direction: column;
     align-items: start;
+}
+
+#benS-section > figcaption
+{
+    margin-left: -1rem;
+}
+
+#ellermeyer-section > figcaption
+{
+    margin-left: 17rem;
 }
 
 .navigation > ul a {
@@ -150,6 +161,7 @@ a.background:link {
     margin-top: 1rem;
     width: 285px;
     height: 117px;
+    margin-left: -5rem;
 }
 
 #ellermeyer-logo {
@@ -160,14 +172,20 @@ a.background:link {
 #bierman-logo {
     width: 270px;
     height: 79px;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+    margin-top: 3rem;
+    margin-left: -6rem;
+    margin-right: 1rem;
 }
 
 #mobiel-bv-logo {
     width: 10rem;
     height: 10rem;
+    margin-right: 8rem;
+}
+
+#BenS-button
+{
+    margin-left: 10px;
 }
 
 .page-text,
@@ -263,6 +281,11 @@ form > a
     list-style: none;
     color: #8FD3F8;
     font-family: "Assistant";
+}
+
+#copyright-contact
+{
+      margin-right: 40rem;
 }
 
 #grid-container {
