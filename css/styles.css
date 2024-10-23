@@ -207,6 +207,24 @@ article, aside
     background-color: #b6a5b5;
 }
 
+section > h1
+{
+    text-align: center;
+    font-family: "Rubik";
+    background-color: #b6a5b5;
+    width: 500px;
+    margin-left: 500px;
+    margin-bottom: 0;
+}
+
+section h2
+{
+    text-align: center;
+    font-family: "Rubik";
+    background-color: #b6a5b5;
+    margin-bottom: 0;
+}
+
 form {
     display: flex;
     flex-direction: column;
