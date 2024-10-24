@@ -150,16 +150,6 @@ a.background:link {
     word-spacing: 0.1rem;
 }
 
-.article:nth-child(even)
-{
-    background-color: #CFF;
-}
-
-.article:nth-child(odd)
-{
-    background-color: #FFF;
-}
-
 .article p {
     font-family: "Assistant";
 }
@@ -439,6 +429,25 @@ footer ul li a {
    z-index: 9999;
 }
 
+/* nth-child toepassen op een table */
+table, th
+{
+    background-color: #b6a5b5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+th:nth-child(even)
+{
+    background-color: #CFF;
+}
+
+th:nth-child(odd)
+{
+    background-color: #FFF;
+}
+
 @media screen and (max-width: 768px) {
 
     main
@@ -466,17 +475,17 @@ footer ul li a {
 
     .hamburger span:nth-child(1) {
         top: 0;
-        background-color: #FFF;
+        background-color: #8FD3F8
     }
 
     .hamburger span:nth-child(2) {
         top: 9px;
-        background-color: #CFF;
+        background-color: #8FD3F8;
     }
 
     .hamburger span:nth-child(3) {
         bottom: 8px;
-        background-color: #FFF;
+        background-color: #8FD3F8;
     }
 
     .menu
