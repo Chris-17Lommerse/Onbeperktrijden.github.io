@@ -449,6 +449,13 @@ th:nth-child(odd)
     background-color: #FFF;
 }
 
+h6
+{
+    font-family: "Rubik";
+    background-color: #b6a5b5;
+    margin-top: -2rem;
+}
+
 @media screen and (max-width: 768px) {
 
     main
