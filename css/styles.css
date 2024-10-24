@@ -159,11 +159,6 @@ a.background:link {
     font-family: "Rubik";
 }
 
-#h1-text
-{
-    display: none;
-}
-
 .logo {
     width: 89.26px;
     height: 99.28px;
@@ -454,11 +449,10 @@ th:nth-child(odd)
     background-color: #FFF;
 }
 
-h6
+h6, 
+.h1-text
 {
-    font-family: "Rubik";
-    background-color: #b6a5b5;
-    margin-top: -2rem;
+    display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -595,7 +589,7 @@ h6
         margin-left: 8rem;
     }
 
-        #h1-text {
+        .h1-text {
             display: none;
         }
 }
