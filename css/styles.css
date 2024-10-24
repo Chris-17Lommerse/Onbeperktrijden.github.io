@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik");
 @import url("https://fonts.googleapis.com/css2?family=Assistant");
 
-
+/* CSS is validated with the CSS3 validator with profile: CSS3 + SVG */
 body {
     background: var(--Primary, #863277);
 }
@@ -59,17 +59,18 @@ nav > ul a.background
 {
     color: black;
 }
+
 .grid-container-nav {
     position: static;
 }
 
 .navigation {
     background-color: #b6a5b5;
-    list-style: none;
     position: relative;
     margin-left: 25rem;
     margin-right: 25rem;
     cursor: pointer;
+    width: fit-content;
 }
 
 .navigation > ul {
@@ -171,7 +172,7 @@ a.background:link {
 }
 
 #ellermeyer-logo {
-    width: 10rem;
+    width: fit-content;
     height: 10rem;
 }
 
@@ -186,7 +187,7 @@ a.background:link {
 #mobiel-bv-logo {
     width: 10rem;
     height: 10rem;
-    margin-right: 8rem;
+    margin-right: auto;
 }
 
 #BenS-button
@@ -213,7 +214,7 @@ section > h1
     text-align: center;
     font-family: "Rubik";
     background-color: #b6a5b5;
-    width: 500px;
+    width: fit-content;
     margin-left: 500px;
     margin-bottom: 0;
 }
@@ -457,6 +458,10 @@ th:nth-child(odd)
     #menu-toggle {
         display: none;
     }
+    
+    nav>ul a.background {
+        color: black;
+    }
 
     .hamburger {
         position: relative;
@@ -521,9 +526,19 @@ th:nth-child(odd)
 
     .navigation {
         width: fit-content;
-        margin-left: 150px;
+        margin: auto;
     }
 
+    #ellermeyer-section figcaption
+    {
+        margin-right: 10rem;
+    }
+
+    #mobiel-bv-logo
+    {
+        margin-right: 10rem;
+    }
+    
     form {
         width: 350px;
         margin-left: 10rem;
