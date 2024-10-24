@@ -159,6 +159,12 @@ a.background:link {
     font-family: "Rubik";
 }
 
+#h1-text
+{
+    background-color: #b6a5b5;
+    margin-top: -1.4rem;
+}
+
 .logo {
     width: 89.26px;
     height: 99.28px;
