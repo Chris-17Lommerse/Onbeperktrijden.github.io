@@ -161,8 +161,7 @@ a.background:link {
 
 #h1-text
 {
-    background-color: #b6a5b5;
-    margin-top: -1.4rem;
+    display: none;
 }
 
 .logo {
@@ -595,4 +594,8 @@ h6
     form>.submit {
         margin-left: 8rem;
     }
+
+        #h1-text {
+            display: none;
+        }
 }
