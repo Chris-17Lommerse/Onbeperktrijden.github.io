@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik");
 @import url("https://fonts.googleapis.com/css2?family=Assistant");
 
+
 body {
     background: var(--Primary, #863277);
 }
@@ -147,6 +148,16 @@ a.background:link {
     line-height: 20px;
     text-indent: 1em;
     word-spacing: 0.1rem;
+}
+
+.article:nth-child(even)
+{
+    background-color: #CFF;
+}
+
+.article:nth-child(odd)
+{
+    background-color: #FFF;
 }
 
 .article p {
@@ -451,21 +462,20 @@ footer ul li a {
         left: 0;
         right: 0;
         height: 3px;
-        background-color: #CFF;
     }
 
-    .hamburger span:nth-child(odd) {
+    .hamburger span:nth-child(1) {
         top: 0;
         background-color: #FFF;
     }
 
-    .hamburger span:nth-child(even) {
+    .hamburger span:nth-child(2) {
         top: 9px;
         background-color: #CFF;
     }
 
-    .hamburger span:nth-child(odd) {
-        bottom: 0;
+    .hamburger span:nth-child(3) {
+        bottom: 8px;
         background-color: #FFF;
     }
 
