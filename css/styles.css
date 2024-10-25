@@ -251,13 +251,12 @@ form label, #text {
 
 legend
 {
-    margin-top: -8rem;
-    font-family: "Assistant";
+   display: none;
 }
 
 #text {
-    text-align: center;
-    margin-bottom: 100px;
+    margin-left: 41.5rem;
+    margin-top: -8rem;
 }
 
 #vraag {
