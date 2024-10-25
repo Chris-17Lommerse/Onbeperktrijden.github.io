@@ -454,7 +454,9 @@ th:nth-child(odd)
 }
 
 h6, 
-.headings-text
+.headings-text,
+#radio,
+#radio-autoaanpassingsbedrijf
 {
     display: none;
 }
