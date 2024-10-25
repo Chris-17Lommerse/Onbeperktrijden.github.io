@@ -57,36 +57,36 @@
         <form action="post">
             <label for="radio">Aanhef bezoeker*</label>
             <fieldset>
-                <input type="radio" name="aanhef" value="Dhr." />
+                <input type="radio" id="radio" name="aanhef" value="Dhr." />
                 <label for="radio">Dhr.</label>
-                <input type="radio" name="aanhef" value="Mevr." />
+                <input type="radio" id="radio" name="aanhef" value="Mevr." />
                 <label for="radio">Mevr.</label>
-                <input type="radio" name="aanhef" value="Neutraal" />
+                <input type="radio" id="radio" name="aanhef" value="Neutraal" />
                 <label for="radio">Neutraal</label>
             </fieldset>
             <label for="text">Naam bezoeker*</label>
-            <input type="text" class="form" name="Naam bezoeker" placeholder="Chris Lommerse" />
+            <input type="text" id="text" class="form" name="Naam bezoeker" placeholder="Chris Lommerse" />
             <label for="email">E-mailadres bezoeker*</label>
-            <input type="email" class="form" name="email" placeholder="clom****@gmx.com" />
+            <input type="email" id="text" class="form" name="email" placeholder="clom****@gmx.com" />
             <label for="tel">Telefoonnummer bezoeker</label>
-            <input type="tel" class="form" name="tel" placeholder="06 8675443536" />
-            <label for="text">Vraag/Opmerking bezoeker*</label>
+            <input type="tel" id="tel" class="form" name="tel" placeholder="06 8675443536" />
+            <label for="vraag">Vraag/Opmerking bezoeker*</label>
             <input type="text" id="vraag" class="form" name="text" placeholder="Dit is een vraag" />
             <label for="radio">Selecteer een autoaanpassingsbedrijf*</label>
             <fieldset id="input-autoaanpassingsbedrijf">
-                <input type="radio" name="autoaanpassingsbedrijf" />
+                <input type="radio" id="radio" name="autoaanpassingsbedrijf" />
                 <label for="radio">B&S</label>
-                <input type="radio" name="autoaanpassingsbedrijf" />
+                <input type="radio" id="radio" name="autoaanpassingsbedrijf" />
                 <label for="radio">Ellermeyer</label>
-                <input type="radio" name="autoaanpassingsbedrijf" />
+                <input type="radio" id="radio" name="autoaanpassingsbedrijf" />
                 <label for="radio">Bierman</label>
-                <input type="radio" name="autoaanpassingsbedrijf" />
+                <input type="radio" id="radio" name="autoaanpassingsbedrijf" />
                 <label for="radio">Mobiel BV</label>
             </fieldset>
-            <legend id="text">*= Verpicht invoerveld</legend>
             <input type="submit" class="submit" value="Verzenden" name="submit" />
             <a href="formulier-verstuurd.html">Verzenden</a>
         </form>
+        <legend id="text">*= Verplicht invoerveld</legend>
     </main>
     <footer>
         <ul>
