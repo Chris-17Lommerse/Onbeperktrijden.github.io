@@ -227,6 +227,11 @@ section h2
     margin-bottom: 0;
 }
 
+section article.page-text
+{
+    height: 8rem;
+}
+
 aside > h1
 {
     text-align: center;
@@ -419,11 +424,15 @@ footer ul li a {
 {
     border: none;
     background-color: #FF8200;
-    width: 5rem;
-    height: 2rem;
-    margin-bottom: 0.5rem;
+    color: black;
+    width: 10rem;
+    height: 5rem;
+    margin-bottom: 1rem;
     margin-left: 0.5rem;
+    text-decoration: none;
     cursor: pointer;
+    font-family: "Rubik";
+    font-size: large;
 }
 
 .cookies
@@ -432,6 +441,11 @@ footer ul li a {
    text-align: center;
    font-family: "Assistant";
    z-index: 9999;
+}
+
+#formulier-verstuurd h1
+{
+    display: none;
 }
 
 /* nth-child toepassen op een table */
