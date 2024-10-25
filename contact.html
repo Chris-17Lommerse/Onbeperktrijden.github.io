@@ -54,15 +54,15 @@
                 aanpassingsbedrijven.
             </p>
         </header>
-        <form>
+        <form action="post">
             <label for="radio">Aanhef bezoeker*</label>
             <fieldset>
                 <input type="radio" name="aanhef" value="Dhr." />
-                <label for="Dhr.">Dhr.</label>
+                <label for="radio">Dhr.</label>
                 <input type="radio" name="aanhef" value="Mevr." />
-                <label for="Mevr.">Mevr.</label>
+                <label for="radio">Mevr.</label>
                 <input type="radio" name="aanhef" value="Neutraal" />
-                <label for="Neutraal">Neutraal</label>
+                <label for="radio">Neutraal</label>
             </fieldset>
             <label for="text">Naam bezoeker*</label>
             <input type="text" class="form" name="Naam bezoeker" placeholder="Chris Lommerse" />
@@ -70,18 +70,18 @@
             <input type="email" class="form" name="email" placeholder="clom****@gmx.com" />
             <label for="tel">Telefoonnummer bezoeker</label>
             <input type="tel" class="form" name="tel" placeholder="06 8675443536" />
-            <label for="textarea">Vraag/Opmerking bezoeker*</label>
+            <label for="text">Vraag/Opmerking bezoeker*</label>
             <input type="text" id="vraag" class="form" name="text" placeholder="Dit is een vraag" />
             <label for="radio">Selecteer een autoaanpassingsbedrijf*</label>
             <fieldset id="input-autoaanpassingsbedrijf">
                 <input type="radio" name="autoaanpassingsbedrijf" />
-                <label for="B&S">B&S</label>
+                <label for="radio">B&S</label>
                 <input type="radio" name="autoaanpassingsbedrijf" />
-                <label for="B&S">Ellermeyer</label>
+                <label for="radio">Ellermeyer</label>
                 <input type="radio" name="autoaanpassingsbedrijf" />
-                <label for="B&S">Bierman</label>
+                <label for="radio">Bierman</label>
                 <input type="radio" name="autoaanpassingsbedrijf" />
-                <label for="B&S">Mobiel BV</label>
+                <label for="radio">Mobiel BV</label>
             </fieldset>
             <legend id="text">*= Verpicht invoerveld</legend>
             <input type="submit" class="submit" value="Verzenden" name="submit" />
@@ -100,6 +100,9 @@
             </li>
         </ul>
         <article class="cookies">
+            <h2>
+                Als u gebruiktmaakt van de website&comma; dan gaat u automatisch akkoord met de cookievoorwaarden
+            </h2>
             <p>
                 Wilt u cookies accepteren?
             </p>
