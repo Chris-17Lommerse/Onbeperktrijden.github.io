@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik");
 @import url("https://fonts.googleapis.com/css2?family=Assistant");
 
-/* CSS is validated with the CSS3 validator with profile: CSS3 + SVG */
+/* CSS is validated with the CSS3 validator with profile: CSS3 + SVG, without errors and warnings */
 body {
     background: var(--Primary, #863277);
 }
