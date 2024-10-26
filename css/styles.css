@@ -227,11 +227,6 @@ section h2
     margin-bottom: 0;
 }
 
-section article.page-text
-{
-    height: 8rem;
-}
-
 aside > h1
 {
     text-align: center;
@@ -400,6 +395,13 @@ aside.page-text {
 .first-letter::first-letter {
     font-size: 2rem;
     font-weight: bolder;
+}
+
+.first-letter a
+{
+    font-family: "Assistant";
+    text-decoration: none;
+    color: black;
 }
 
 footer>ul {
